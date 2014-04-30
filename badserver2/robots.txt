@@ -1,0 +1,7 @@
+CACHE MANIFEST
+
+# Referring page is cached automatically
+robots.txt
+
+NETWORK:
+*

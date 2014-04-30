@@ -1,0 +1,15 @@
+<!doctype html>
+<html manifest="manifest.appcache">
+  <head>
+    <title>Bad server</title>
+    <script>
+      applicationCache.onchecking = function() {
+        return false;
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Enjoy your captioned cats picture, citizen!</h1>
+    <img src="http://i.imgur.com/PIsJPOt.jpg"></img>
+  </body>
+</html>
